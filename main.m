@@ -26,10 +26,16 @@ ax = ax.setup(ax,l);
 mV = [];
 
 mP(1) = unitPlane;
-mP(1) = mP(1).setup(mP(1),l,[2,1,1],'red');
+mP(1) = mP(1).setup(mP(1),l,[1,2,0],'red');
 
 mP(2) = unitPlane;
 mP(2) = mP(2).setup(mP(2),l,[-3,2,-1],'green');
+
+mP(3) = unitPlane;
+mP(3) = mP(3).setup(mP(3),l,[1,-1,0],'cyan');
+
+mP(4) = unitPlane;
+mP(4) = mP(4).setup(mP(4),l,[0,0,4],'magenta');
 
 %Rendering
 for i = 1:length(t)

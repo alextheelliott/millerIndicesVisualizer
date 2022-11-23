@@ -1,3 +1,7 @@
+%Renders an axis.
+%Parameters:
+%   This,        obj
+%   Side length, l
 classdef unitAxes < graphics
     properties
         c = {'red','green','blue'}

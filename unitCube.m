@@ -1,3 +1,7 @@
+%Renders a unit cube.
+%Parameters:
+%   This,        obj
+%   Side length, l
 classdef unitCube < graphics
     properties
         c = 'blue'
